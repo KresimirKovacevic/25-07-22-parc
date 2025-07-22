@@ -55,7 +55,7 @@ namespace AspNet.MVC.Controllers
                     new Book{Name = "Tower in the Sky", Author = authors[1], PublishDate = DateOnly.Parse("1955-11-12"), Description = "A utopia dwells in the skies, meanwhile..."},
                     new Book{Name = "Rising Above", Author = authors[2], PublishDate = DateOnly.Parse("1899-01-02")},
                     new Book{Name = "The Human Trinity", Author = authors[2], PublishDate = DateOnly.Parse("1921-12-11"), Description = "Introduction to the Id, Ego, and Superego."},
-                    new Book{Name = "Forest Fire", Author = authors[1], PublishDate = DateOnly.Parse("2005-11-09"), Description = "The flames are rising in the bacground, and fast approaching..."}
+                    new Book{Name = "Forest Fire", Author = authors[1], PublishDate = DateOnly.Parse("2005-11-09"), Description = "The flames are rising in the background, and fast approaching..."}
 
                 };
             }

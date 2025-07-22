@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="Views\Exam\Authors.schtml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="FoolProof.Core" Version="2.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
   </ItemGroup>
