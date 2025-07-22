@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Homepage for the test (2025.07.22.).</p>
+    <p id="clock">Loading...</p>
+    <script type="text/javascript">
+        setInterval("settime()", 1000);
+
+        function settime()
+        {
+            var dateTime = new Date();
+            var hour = dateTime.getHours();
+            var minute = dateTime.getMinutes();
+            var second = dateTime.getSeconds();
+            var year = dateTime.getFullYear();
+
+            if (minute < 10)
+                minute = "0" + minute;
+
+            if (second < 10)
+                second = "0" + second;
+
+            var time = year + "/" + (dateTime.getMonth()+1) + "/" + dateTime.getDate() + " " + hour + ":" + minute + ":" + second;
+
+            document.getElementById("clock").innerHTML = time;
+        }
+    </script>
+</div>
